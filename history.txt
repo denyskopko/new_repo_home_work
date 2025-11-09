@@ -1,0 +1,293 @@
+    1  scp ec2-user@linux.itcareerhub.de:/opt/010825-ptm/denys_kopko/file1.txt .
+    2  ssh ec2-user@linux.itcareerhub.de
+    3  ssh-keygen
+    4  cat .ssh/id_ed25519.pub
+    5  ssh ec2-user@linux.itcareerhub
+    6  ssh ec2-user@linux.itcareerhub.de
+    7  pwd
+    8  ssh ec2-user@linux.itcareerhub.de
+    9  ssh ec2-user@linux.itcareerhub.de
+   10  [200~ssh ec2-user@linux.itcareerhub.de~
+   11  ssh ec2-user@linux.itcareerhub.de
+   12  cat .ssh/id_ed2519.pub
+   13  cat .ssh/id_ed25519.pub
+   14  ssh ec2-user@linux.itcareerhub.de
+   15  ssh ec2-user@linux.itcareerhub.de
+   16  ssh ec2-user@linux.itcareerhub.de
+   17  exit
+   18  ssh ec2-user@linux.itcareerhub.de
+   19  Объявите новую системную переменную  ANDREW_VARIABLE и присвойте ей значение с именем вашей группы, где вместо ANDREW - будет ваше имя 
+   20  По полному пути /opt/ВАША_ГРУППА/ВАШЕ_ИМЯ создайте файл скрытый файл process_management, в который:
+   21  Запишите дату
+   22  Допишите “Welcome to Amazon server”  - любым удобным Вам способом
+   23  Допишите информации об общем объеме оперативной памяти - любым удобным Вам способом
+   24  Допишите в него информацию из списка процессов, но из вывода всей команды взять только КОЛИЧЕСТВО процессов, запущенные под пользователем root
+   25  Допишите информацию об объявленных переменных, но отфильтруйте так, чтобы осталась только Ваша переменная из пункта 2 (В примере ANDREW_VARIABLE)
+   26  *   PID и PPID процесса “/usr/sbin/sshd -D” в виде
+   27   PID *** PPID *, где *** и * это актуальные идентификаторы процесса и родительского процес
+   28  clear
+   29  ssh ec2-user@linux.itcareerhub.de
+   30  git init
+   31  git add first_git_init.png
+   32  git add first_git_init
+   33  git add C:\ICH\Linux\git_hub\first_git_init.png
+   34  git add C:\ICH\Linux\git_hub
+   35  git add first_git_init.png
+   36  mkdir dit_intro
+   37  cd git_intro
+   38  git init
+   39  cp C:\ICH\Linux\git_hub
+   40  ls
+   41  ls -al
+   42  git add /c/ICH/Linux/git_hub/dit_intro/first_git__init.png
+   43  git commit -m "Added photo"
+   44  git remote add origin kopko.denis23@gmail.com:denyskopko/git_intro.git
+   45  git pull origin main --allow-unrelated-histories
+   46  whereis locate
+   47  whereis tree
+   48  tree
+   49  locate "*".txt
+   50  ssh ec2-user@linux.itcareerhub.de
+   51  ssh ec2-user@linux.itcareerhub.de
+   52  cd /c/ICH
+   53  cd /c/ICH/Linux/
+   54  mkdir git
+   55  git clone https://github.com/denyskopko/260925.git
+   56  tree
+   57  ls -la
+   58  ls -l
+   59  git checkout -b tester
+   60  git init
+   61  git version
+   62  clear
+   63  ls -l
+   64  clerar
+   65  clear
+   66  pwd
+   67  ls -a
+   68  clear
+   69  cd desctop
+   70  cd desktop
+   71  ls -l
+   72  pwd
+   73  clear
+   74  cd ..
+   75  cd desktop
+   76  mkdir rainbow
+   77  ls
+   78  cd rainbow
+   79  pwd
+   80  git config
+   81  git config --global --list
+   82  git config --global user.name "denyskopko"
+   83  git config --global user.email "kopko.denis23@gmail.com"
+   84  git config --global --list
+   85  ls -a
+   86  clear
+   87  git init -b
+   88  git init --initial-branch
+   89  git init.defaultBranch "first_branch"
+   90  git config --global init.defaultBranch "first_branch"
+   91  git init first_branch
+   92  ls -a
+   93  ls
+   94  cd 
+   95  cd /desktop/git-branch
+   96  cd /desktop/git-branch
+   97  cd C:\Users\test\Desktop\git-branch
+   98  cd C:\Users\test\desktop\git-branch
+   99  pwd
+  100  git init
+  101  git remote add origin git@github.com:denyskopko/git-branch.git
+  102  git init git-branch
+  103  dit remore add origin git@github.com:denyskopko/git-branch.git
+  104  git remote add origin git@github.com:denyskopko/git-branch.git
+  105  git remote add origin git@github.com:denyskopko/git-branch.git
+  106  git globall user.name "denyskopko"
+  107  git --globall user.name "denyskopko"
+  108  git config --global user.name "denyskopko"
+  109  git config --global user.email "kopko.denis23@gmail.com"
+  110  git remote add origin git@github.com:denyskopko/git-branch.git
+  111  git init
+  112  git init
+  113  git checkout first_branch)
+  114   git checkout first_branch
+  115  git remote add orinig git@github.com:denyskopko/git-branch.git
+  116  git switch ignore
+  117  git ignore
+  118  git branch /gitignore
+  119  git branch gitignore
+  120  git branch "gitignore"
+  121  git branch -a
+  122  git branch -d first_branch
+  123  git branch gitignore
+  124  git swich -c gitignore
+  125  git switch -c gitignore
+  126  ls -a
+  127  git add .
+  128  git commit -m ".gitignore.txt"
+  129  git push -u origin gitignore
+  130  git push -u gitignore
+  131  git status
+  132  ls -la
+  133  clear
+  134  git add .gitignore.txt
+  135  git status
+  136  ls -la
+  137  git add .
+  138  ls -la
+  139  git commit -m "Я добавил файл"
+  140  git init 
+  141  rm -rf .git
+  142  git init 
+  143  git config --global init.defaultBranch "main"
+  144  git switch -c gitignore
+  145  vi
+  146  vi .gitignore
+  147  git add .
+  148  git commit -m "Я изменил что-то в проэкте"
+  149  git push -u gitignore
+  150  git remote add origin git@github.com:denyskopko/git-branch.git
+  151  git push -u gitignore
+  152  $ git push -u git-branch gitignore
+  153  git remote -v
+  154  git push -u origin gitignore
+  155  scp ec2-user@linux.itcareerhub.de:/opt/010825-ptm/SEREGA/permission_checker.sh
+  156  history -l
+  157  history
+  158  clear
+  159  git config --global -list
+  160  git config --global --list
+  161  git init -b main1
+  162  pwd
+  163  git init -b first-branch
+  164  touch rainbowcolors.txt
+  165  vi rainbowcolors.txt
+  166  vi rainbowcolors.txt
+  167  cat rainbowcolors.txt
+  168  git status
+  169  git add -A
+  170  git status
+  171  git commit -m "red"
+  172  git log
+  173  clear
+  174  git status
+  175  vi rainbowcolors.txt
+  176  git status
+  177  cat rainbowcolors.txt
+  178  git add rainbowcolors.txt
+  179  git status
+  180  git log
+  181  git commit -m "orange"
+  182  clear
+  183  git log
+  184  git cat-file -p 2c3503e0ba6e083331043d5011f1caff12f6fcfe
+  185  git cat-file -p c7908c7
+  186  git branch
+  187  git branch feature
+  188  git branch
+  189  git log
+  190  clear
+  191  git log
+  192  git branch
+  193  git checkout feature 
+  194  git branch
+  195  git log
+  196  git add rainbowcolors.txt
+  197  git commit -m "yellow"
+  198  clear
+  199  git log
+  200  git checkout first-branch
+  201  git log
+  202  git checkout feature 
+  203  clear
+  204  git log
+  205  git status
+  206  git status
+  207  git branch
+  208  git status
+  209  git add rainbowcolors.txt
+  210  git switch first-branch
+  211  git status
+  212  git status
+  213  git branch
+  214  git switch first-branch
+  215  vi rainbowcolors.txt
+  216  git switch first-branch
+  217  git switch first-branch
+  218  git status
+  219  git add rainbowcolors.txt
+  220  git switch first-branch
+  221  git switch first-branch
+  222  git commit "yellow"
+  223  git commit -m "yellow"
+  224  git switch first-branch
+  225  git log
+  226  git status
+  227  clear
+  228  git log
+  229  git log --all
+  230  git merge feature 
+  231  git log
+  232  vi rainbowcolors.txt
+  233  git checkout c7908c7
+  234  clear
+  235  git log --all
+  236  gi switch first-branch
+  237  git switch first-branch
+  238  clear
+  239  git log
+  240  git remote add rainbow-remote https://github.com/denyskopko/rainbow-remote.git
+  241  git remote -v
+  242  git remote 
+  243  history
+  244  mkdir 07_10
+  245  cd 07_10
+  246  git init
+  247  echo "# 07_10" >> README.md
+  248  git init
+  249  git add README.md
+  250  git commit -m "first commit"
+  251  git branch -M main
+  252  git remote add origin git@github.com:denyskopko/07_10.git
+  253  git push -u origin main
+  254  winget install --id Github.cli
+  255  gh --version
+  256  help gh
+  257  man -k gh
+  258  help lelp gh
+  259  sudo apt install gh
+  260  sudo instal gh
+  261  sudo instal gh
+  262  sudo instal gh
+  263  gh --version
+  264  winget install --id Github.cli
+  265  sudo apt install gh 
+  266  sudo apt update
+  267  sudo apt install gh
+  268  sudo dnf config-manager --add-repo https://cli.github.com/packages/rpm/gh-cli.repo
+  269  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+  270  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+  271  sudo apt update
+  272  sudo apt update gh
+  273  gh auth login
+  274  linux.itcareerhub.de
+  275  ssh linux.itcareerhub.de
+  276  ssh itcareerhub.de
+  277  ssh linux.itcareerhub.de
+  278  git clone https://github.com/denyskopko/new_repo_home_work.git
+  279  git checkout -b feature
+  280  cd new_repo_home_work
+  281  git checkout -b feature
+  282  echo "## This is my feature branch" >> README.md
+  283  echo "temp/" >> .gitignore
+  284  git add README.md .gitignore
+  285  git commit -m "Add updates in README and .gitignore"
+  286  git push origin feature
+  287  git commit --amend -m "Add updates in README and .gitignore ammend"
+  288  git push origin feature --force
+  289  git checkout main
+  290  git pull origin main
+  291  git merge feature
+  292  histiry > history.txt
+  293  history > history.txt
